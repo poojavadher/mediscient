@@ -242,3 +242,13 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+    "Letter Head",
+    {"dt":"Print Format","filters":[
+        [
+        "module","in",[
+                "Mediscient Custom"
+            ]
+        ]
+    ]}
+]

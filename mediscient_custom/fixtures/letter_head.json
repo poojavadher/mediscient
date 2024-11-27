@@ -1,0 +1,25 @@
+[
+ {
+  "align": "Left",
+  "content": "<p class=\"responsive-text\" style=\"text-align:center; padding: 2px 10px; border-radius: 20px; color: #7777ee; border: 1px solid #7777ee;\">\n  <img class=\"imagesize\" src=\"/files/Mediscient Logo.png\" alt=\"Mediscient Logo\">\n  ediscient Devices Private Limited\n</p>\n\n<style>\n  /* Default font size for large screens (desktops) */\n  .responsive-text {\n    font-size: 30px;\n  }\n    .imagesize{\n        height: 20px;\n        width: 20px;\n    }\n\n  /* Medium screen (tablets, small laptops) */\n  @media (max-width: 1024px) {\n    .responsive-text {\n      font-size: 20px;\n    }.imagesize{\n        height: auto;\n        width: auto;\n    }\n  }\n\n  /* Small screen (mobile devices) */\n  @media (max-width: 768px) {\n    .responsive-text {\n      font-size: 10px;\n    }\n    .imagesize{\n        height: 40px;\n        width: 40px;\n    }\n  }\n  @media print {\n       .responsive-text {\n    font-size: 28px;\n  }\n    .imagesize{\n        height: auto;\n        width: auto;\n    }\n  }\n</style>\n\n",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Letter Head",
+  "footer": "<p style=\"margin-top: 40px !important; text-align: center;\">Mediscient Devices Pvt. Ltd. | accounts@mediscient.tech | +91-8511115138</p>",
+  "footer_align": "Left",
+  "footer_image": null,
+  "footer_image_height": 0.0,
+  "footer_image_width": 0.0,
+  "footer_script": null,
+  "footer_source": "HTML",
+  "header_script": null,
+  "image": null,
+  "image_height": 0.0,
+  "image_width": 0.0,
+  "is_default": 1,
+  "letter_head_name": "Default Letter Head",
+  "modified": "2024-11-27 12:00:10.094539",
+  "name": "Default Letter Head",
+  "source": "HTML"
+ }
+]
