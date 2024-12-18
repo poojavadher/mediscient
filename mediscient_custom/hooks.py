@@ -21,6 +21,13 @@ app_license = "mit"
 # 	}
 # ]
 
+scheduler_events = {
+    "daily": [
+        "mediscient_custom.api.update_next_reassessment_dates"
+    ]
+}
+
+
 # Includes in <head>
 # ------------------
 
