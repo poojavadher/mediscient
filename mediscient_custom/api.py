@@ -20,9 +20,5 @@ def update_next_reassessment_dates():
             "custom_next_reassessment_date",
             next_date
         )
-        frappe.get_doc("Supplier", record["name"]).add_comment(
-            "Info", 
-            f"Next reassessment date updated to {next_date}"
-        )
         
     frappe.db.commit() 
